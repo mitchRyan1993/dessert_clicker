@@ -34,7 +34,7 @@ class DessertViewModel : ViewModel() {
                 dessertIndex = index
             } else {
                 // The list of desserts is sorted by startProductionAmount. As you sell more
-                // desserts, you'll start producing more expensive desserts as determined by
+                // desserts you'll start producing more expensive desserts as determined by
                 // startProductionAmount. We know to break as soon as we see a dessert who's
                 // "startProductionAmount" is greater than the amount sold.
                 break
